@@ -1,4 +1,5 @@
 import React from 'react'
+import { HomeScreen } from '../screen/HomeScreen'
 import { AboutScreen } from '../screen/AboutScreen/index'
 import { PortFolioScreen } from '../screen/PortFolioScreen/index'
 import { MyStudyHistory } from '../screen/AboutScreen/MyStudyHistory/index'
@@ -12,7 +13,7 @@ export const Header = () => {
         <Link to='/'>Home</Link>
         <Link to='/about'>About</Link>
         <Link to='/portfolios'>PortFolios</Link>
-        {/* <Route exact path='/' component={HomeScreen} /> */}
+        <Route exact path='/' component={HomeScreen} />
         <Route exact path='/about' component={AboutScreen} />
         <Route path='/portfolios' component={PortFolioScreen} />
         <Route path='/about/mystudyhistory' component={MyStudyHistory} />
