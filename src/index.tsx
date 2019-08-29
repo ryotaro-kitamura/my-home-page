@@ -1,9 +1,6 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
-// import Route from "react-router-dom/Route"
 import { Header } from './components/Header'
-//import { HomeScreen } from './screen/HomeScreen/index'
-//import { Programming } from './screen/AboutScreen/Programming/index'
 import './index.css';
 import * as serviceWorker from './serviceWorker'
 
