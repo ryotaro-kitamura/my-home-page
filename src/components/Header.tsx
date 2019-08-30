@@ -3,6 +3,7 @@ import { HomeScreen } from '../screen/HomeScreen'
 import { AboutScreen } from '../screen/AboutScreen/index'
 import { PortFolioScreen } from '../screen/PortFolioScreen/index'
 import { MyStudyHistory } from '../screen/AboutScreen/MyStudyHistory/index'
+import { Programming } from '../screen/AboutScreen/Programming/index'
 import { BrowserRouter, Route, Link } from 'react-router-dom'
 
 
@@ -17,7 +18,7 @@ export const Header = () => {
         <Route exact path='/about' component={AboutScreen} />
         <Route path='/portfolios' component={PortFolioScreen} />
         <Route path='/about/mystudyhistory' component={MyStudyHistory} />
-        {/* <Route path='/about/programming' component={Programming} /> */}
+        <Route path='/about/programming' component={Programming} />
       </BrowserRouter>
     </React.Fragment>
   )
