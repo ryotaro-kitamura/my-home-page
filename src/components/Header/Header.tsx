@@ -12,7 +12,7 @@ export const Header = () => {
   return (
     <React.Fragment>
       <BrowserRouter>
-        <div style={{textAlign: 'end'}}>
+        <div style={{top: 10, right: 10, position: 'fixed', zIndex: 1}}>
           <RouteButton><Link to='/'>Home</Link></RouteButton>
           <RouteButton><Link to='/about'>About</Link></RouteButton>
           <RouteButton><Link to='/portfolios'>PortFolios</Link></RouteButton>
