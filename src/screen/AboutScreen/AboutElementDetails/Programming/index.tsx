@@ -9,15 +9,24 @@ interface skill {
 
 export const Programming = () => {
   return(
-      <VerticalTimeline>
+    <VerticalTimeline>
+       <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="2019.8 - 2019.8"
+        iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+        //icon={<WorkIcon />}
+      >
+        <h3 className="vertical-timeline-element-title">React/Typescript</h3>
+        <h4 className="vertical-timeline-element-subtitle">本ポートフォリオ作成</h4>
+      </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2019.7 - present"
+        date="2019.7 - 2019.8"
         iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
         //icon={<WorkIcon />}
       >
         <h3 className="vertical-timeline-element-title">React/Typescript/Redux/ReactNative</h3>
-        <h4 className="vertical-timeline-element-subtitle">インターン先の開発で使用。個人での勉強もReactが中心に。</h4>
+        <h4 className="vertical-timeline-element-subtitle">インターン先の開発で使用(在籍は約1ヶ月)。</h4>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"

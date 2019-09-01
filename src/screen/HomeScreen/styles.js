@@ -3,7 +3,7 @@ import Button from '@material-ui/core/Button';
 
 export const Main = styled.div`
   position: relative;
-  background: linear-gradient(-45deg, rgb(255, 49, 2), rgb(255, 234, 84));
+  background: linear-gradient(-45deg, rgb(255, 96, 59), rgb(255, 255, 255));
   border-bottom: 2px solid white;
   lineheight: 100px;
   font-family: arial black;
@@ -16,7 +16,7 @@ export const About = styled.div`
   padding: 150px;
 `
 export const Portfolio = styled.div`
-  background: linear-gradient(-45deg, rgb(255, 49, 2), rgb(255, 234, 84));
+  background: linear-gradient(-45deg, rgb(255, 96, 59), rgb(255, 255, 255));
   text-align: center;
   font-family: arial black;
   padding: 150px;
@@ -34,12 +34,13 @@ export const Title = styled.div`
   padding: 10px;
 `
 export const Info = styled.p`
-  font-size: 15px;
+  font-size: 15px; 
   padding: 10px;
 
 `
 export const InfoButton = styled(Button)`
   &&{
+    font-family: arial black;
     padding: 10px;
     background-color: Transparent;
     background-repeat:no-repeat;

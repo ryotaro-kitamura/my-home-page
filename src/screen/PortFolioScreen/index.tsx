@@ -48,8 +48,8 @@ export const PortFolioScreen = () => {
     },
     {
       id: 4,
-      name: 'Reactポートフォリオ「Ryotaro\'s Home Page」',
-      kind: '自己紹介用ポートフォリオ',
+      name: 'Reactポートフォリオ',
+      kind: '自己紹介用',
       date: '2019.8',
       url: '',
       img: '',
@@ -59,9 +59,11 @@ export const PortFolioScreen = () => {
 
   return (
     <PortFolioScreenDiv>
-      <h2>ポートフォリオ集</h2>
-      <p>ボタンを押すと該当するポートフォリオの詳細を確認できます</p>
-      <SelectPortfolio portFolio={portFolio} portFolios={portFolios} setPortFolio={setPortFolio}/>
+      <div style={{textAlign: 'center'}}>
+        <h2>ポートフォリオ集</h2>
+        <p>ボタンを選択すると、該当するポートフォリオの詳細を確認できます</p>
+        <SelectPortfolio portFolio={portFolio} portFolios={portFolios} setPortFolio={setPortFolio}/>
+      </div>
       <PortFolioDeatils portFolio={portFolio}/>
     </PortFolioScreenDiv>
   )

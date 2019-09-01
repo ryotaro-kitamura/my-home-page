@@ -11,12 +11,15 @@ interface Props {
 
 export const AboutElementDetails = (props: Props) => {
   const { SelectedAboutElement } = props
-
-  return SelectedAboutElement.Name !== '' ? (
+  
+  return (
     <Timeline>
-      { SelectedAboutElement.Name === '学歴' ? (<MyStudyHistory />) : (<Programming />)}
+      <h3>タイムライン</h3>
+      {SelectedAboutElement.Name !== '' ? (
+        SelectedAboutElement.Name === '学歴' ? (<MyStudyHistory />) : (<Programming />)
+      ): (
+        <React.Fragment></React.Fragment>
+      )}
     </Timeline>
-  ) : (
-    <Timeline></Timeline>
   )
 }
