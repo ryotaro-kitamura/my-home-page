@@ -1,7 +1,7 @@
 import React from 'react'
 import Typed from 'react-typed'
 import { Link } from 'react-router-dom' 
-import { Main, About, Title, Info, InfoButton, Portfolio, Contact } from './styles'
+import { Main, About, Title, Info, InfoButton, Portfolio, Contact, TwitterButtonDiv, TwitterShare } from './styles'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import ryotaro from '../../images/ryotaro_kitamura.jpg'
 
@@ -45,9 +45,9 @@ export const HomeScreen = () => {
       <Contact>
         <Title>CONTACT</Title>
         <Info>e-mail: k.ryoutaro.g@gmail.com</Info>
-        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center' ,color: 'white', margin: '0 auto', width: '30px', height: '30px', borderRadius: '50%', backgroundColor: 'rgba(29,161,242,1.00)'}}>
-          <FontAwesomeIcon icon={['fab','twitter']} />
-        </div>
+        <TwitterButtonDiv>
+          <TwitterShare href={'https://twitter.com/agepiitweets'}><FontAwesomeIcon icon={['fab','twitter']} /></TwitterShare>
+        </TwitterButtonDiv>
       </Contact>
     </React.Fragment>
     

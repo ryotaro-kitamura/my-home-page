@@ -49,5 +49,20 @@ export const InfoButton = styled(Button)`
   &&:hover{
     opacity: 0.8
   }
-
+`
+export const TwitterButtonDiv = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(29,161,242,1.00);
+`
+export const TwitterShare = styled(Button)`
+  && {
+    color: white;
+  }
 `

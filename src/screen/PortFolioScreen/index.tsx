@@ -5,6 +5,7 @@ import { PortFolioScreenDiv } from './styles'
 import torimastart from '../../images/torimastart.png'
 import ryotaroblog from '../../images/ryotaro-blog.png'
 import tasumane from '../../images/tasumane-top.png'
+import react_portfolio from '../../images/react-portfolio.png'
  
 export interface PortFolio { 
   id: number
@@ -52,7 +53,7 @@ export const PortFolioScreen = () => {
       kind: '自己紹介用',
       date: '2019.8',
       url: '',
-      img: '',
+      img: react_portfolio,
       backgroundcolor: 'lightgrey',
     }
   ]
