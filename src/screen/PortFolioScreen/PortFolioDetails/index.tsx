@@ -10,23 +10,20 @@ interface Props {
 export const PortFolioDeatils = (props: Props) => {
 
   const { portFolio } = props
-  return portFolio.id !== 0 ? (
+    return (
     <React.Fragment>
-      {portFolio.img ? (
-        <PortFolioImage>
-          <img style={{width: '100%'}} src={portFolio.img} alt=""/>
-        </PortFolioImage>
-      ) : ''}
       <PortFolioInfo id={portFolio.id} >
         <dl style={{textAlign: 'center'}}>ポートフォリオ詳細</dl>
         <dl>名前: {portFolio.name}</dl>
         <dl>内容: {portFolio.kind}</dl>
         <dl>作成時期: {portFolio.date}</dl>
-        <dl>URL: {portFolio.url}</dl>
+        <dl>URL: <a href={portFolio.url}>{portFolio.url}</a></dl>
       </PortFolioInfo>
+      <PortFolioImage>
+        <dl style={{textAlign: 'center'}}>キャプチャ画像</dl>
+        {portFolio.img ? (<img style={{width: '100%', height: '100%'}} src={portFolio.img} alt=""/>) : ''}
+      </PortFolioImage>
     </React.Fragment>
-  ): (
-    <React.Fragment></React.Fragment>
   )
 }
 
