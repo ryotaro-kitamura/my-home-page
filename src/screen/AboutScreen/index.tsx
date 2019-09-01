@@ -1,15 +1,22 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react'
+import { AboutScreenDiv } from './styles'
+import { SelectAbout } from './SelectAbout/index'
+import { AboutElementDetails } from './AboutElementDetails/index'
+
+export interface InterfaceAboutElement {
+  Name: string
+}
 
 export const AboutScreen = () => {
+  const AboutElements = ['学歴', 'プログラミング歴']
+  const [SelectedAboutElement, SelectAboutElement] = useState<InterfaceAboutElement>({ Name: '' })
+
   return (
-    <React.Fragment>
-      <div style={{border: '1px solid black', padding: '20px'}}>
-        <Link to='/about/mystudyhistory'>学歴</Link>
-      </div>
-      <div style={{border: '1px solid black', padding: '20px'}}>
-        <Link to='/about/programming'>プログラミング</Link>
-      </div>
-    </React.Fragment>
+    <AboutScreenDiv>
+      <h2>ABOUT ME</h2>
+      <p>ボタンを選択すると、該当の情報を確認できます</p>
+      <SelectAbout AboutElements={AboutElements} SelectedAboutElement={SelectedAboutElement} SelectAboutElement={SelectAboutElement}/>
+      <AboutElementDetails SelectedAboutElement={SelectedAboutElement}/>
+    </AboutScreenDiv>
   )
 }
