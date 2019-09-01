@@ -4,7 +4,8 @@ import Button from '@material-ui/core/Button';
 
 export const RouteButton = styled(Button)`
   &&{
-    color: white;
+    font-family: arial black;
+    border: 2px solid black;
     margin: 0 5px;
     display: inline-block;
     mergin: 0 20px;

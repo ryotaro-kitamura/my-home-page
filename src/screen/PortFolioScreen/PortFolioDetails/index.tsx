@@ -13,14 +13,14 @@ export const PortFolioDeatils = (props: Props) => {
     return (
     <React.Fragment>
       <PortFolioInfo id={portFolio.id} >
-        <dl style={{textAlign: 'center'}}>ポートフォリオ詳細</dl>
+        <h3 style={{textAlign: 'center'}}>ポートフォリオ詳細</h3>
         <dl>名前: {portFolio.name}</dl>
         <dl>内容: {portFolio.kind}</dl>
         <dl>作成時期: {portFolio.date}</dl>
         <dl>URL: <a href={portFolio.url}>{portFolio.url}</a></dl>
       </PortFolioInfo>
       <PortFolioImage>
-        <dl style={{textAlign: 'center'}}>キャプチャ画像</dl>
+        <h3 style={{textAlign: 'center'}}>キャプチャ画像</h3>
         {portFolio.img ? (<img style={{width: '100%', height: '100%'}} src={portFolio.img} alt=""/>) : ''}
       </PortFolioImage>
     </React.Fragment>

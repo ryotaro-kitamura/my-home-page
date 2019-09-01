@@ -11,9 +11,9 @@ export const Header = () => {
     <React.Fragment>
       <BrowserRouter>
         <div style={{top: 10, right: 10, position: 'fixed', zIndex: 1}}>
-          <RouteButton><Link to='/'>Home</Link></RouteButton>
-          <RouteButton><Link to='/about'>About</Link></RouteButton>
-          <RouteButton><Link to='/portfolios'>PortFolios</Link></RouteButton>
+          <Link to='/'><RouteButton>Home</RouteButton></Link>
+          <Link to='/about'><RouteButton>About</RouteButton></Link>
+          <Link to='/portfolios'><RouteButton>PortFolios</RouteButton></Link>
         </div>
         <Route exact path='/' component={HomeScreen} />
         <Route exact path='/about' component={AboutScreen} />

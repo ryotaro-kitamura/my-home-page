@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { AboutScreenDiv } from './styles'
+import　{ BasicInfo } from './BasicInfo/index'
 import { SelectAbout } from './SelectAbout/index'
 import { AboutElementDetails } from './AboutElementDetails/index'
 
@@ -13,9 +14,13 @@ export const AboutScreen = () => {
 
   return (
     <AboutScreenDiv>
-      <h2>ABOUT ME</h2>
-      <p>ボタンを選択すると、該当の情報を確認できます</p>
-      <SelectAbout AboutElements={AboutElements} SelectedAboutElement={SelectedAboutElement} SelectAboutElement={SelectAboutElement}/>
+      <h2 style={{textAlign: 'center'}}>ABOUT ME</h2>
+      <BasicInfo />
+      <h2 style={{textAlign: 'center'}}>MORE INFO</h2>
+      <div style={{textAlign: 'center'}}>
+        <p>ボタンを選択すると、該当の情報をタイムラインで確認できます</p>
+        <SelectAbout AboutElements={AboutElements} SelectedAboutElement={SelectedAboutElement} SelectAboutElement={SelectAboutElement}/>
+      </div>
       <AboutElementDetails SelectedAboutElement={SelectedAboutElement}/>
     </AboutScreenDiv>
   )
