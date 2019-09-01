@@ -1,6 +1,10 @@
 import React, { useState }  from 'react'
 import { SelectPortfolio } from './SelectPortfolio/index'
 import { PortFolioDeatils } from './PortFolioDetails/index'
+import { PortFolioScreenDiv } from './styles'
+import torimastart from '../../images/torimastart.png'
+import ryotaroblog from '../../images/ryotaro-blog.png'
+import tasumane from '../../images/tasumane-top.png'
  
 export interface PortFolio { 
   id: number
@@ -21,7 +25,7 @@ export const PortFolioScreen = () => {
       kind: '台湾留学記',
       date: '2018.9 - 2019.6',
       url: 'https://www.torimastart.com/',
-      img: '../../../../public/images/torimastart.png',
+      img: torimastart,
       backgroundcolor: 'lightpink'
     },
     {
@@ -30,7 +34,7 @@ export const PortFolioScreen = () => {
       kind: '現在はプログラミング学習情報が中心。自作したWordPressテーマを使用しています。',
       date: '2019.5 - present',
       url: 'https://ryotaro-blog.xyz/',
-      img: '../../../../public/images/ryotaro-blog.png',
+      img: ryotaroblog,
       backgroundcolor: 'lightblue'
     },
     {
@@ -39,7 +43,7 @@ export const PortFolioScreen = () => {
       kind: 'プログラミング学習やその他',
       date: '2019.5',
       url: 'https://tasumane.herokuapp.com/',
-      img: '../../../../public/images/tasumane.png',
+      img: tasumane,
       backgroundcolor: 'lightgreen'
     },
     {
@@ -54,9 +58,11 @@ export const PortFolioScreen = () => {
   ]
 
   return (
-    <React.Fragment>
+    <PortFolioScreenDiv>
+      <h2>ポートフォリオ集</h2>
+      <p>ボタンを押すと該当するポートフォリオの詳細を確認できます</p>
       <SelectPortfolio portFolio={portFolio} portFolios={portFolios} setPortFolio={setPortFolio}/>
       <PortFolioDeatils portFolio={portFolio}/>
-    </React.Fragment>
+    </PortFolioScreenDiv>
   )
 }

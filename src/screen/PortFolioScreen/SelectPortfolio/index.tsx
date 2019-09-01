@@ -1,7 +1,6 @@
 import React from 'react'
 import { PortFolio } from '../../PortFolioScreen/index'
-import Button from '@material-ui/core/Button'
-
+import { SelectButton } from './styles'
 
 interface Props {
   portFolio: PortFolio
@@ -14,16 +13,15 @@ export const SelectPortfolio = (props: Props) => {
 
   const PortFoliosList = portFolios.map(a => {
     return (
-      <Button 
+      <SelectButton 
         key={a.id ? a.id : ''}
-        style={{ backgroundColor: a.backgroundcolor }}
         onClick={() => {
         console.log(portFolio)
         setPortFolio(a)
         }
       }>
         {a.name}
-      </Button>
+      </SelectButton>
     )
   })
 
