@@ -14,7 +14,6 @@ library.add(fab, fas, far);
 ReactDOM.render(
   <React.Fragment>
     <Header />
-    <HomeScreen />
   </React.Fragment>,
   document.getElementById('root')
 );
