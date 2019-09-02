@@ -12,7 +12,7 @@ export const Header = () => {
     <React.Fragment>
       <BrowserRouter>
         <div style={{top: 10, right: 10, position: 'fixed', zIndex: 1}}>
-          <Link to='/'><RouteButton><FontAwesomeIcon icon={['fas', 'home']}/>Home</RouteButton></Link>
+          <Link to='/my-home-pages'><RouteButton><FontAwesomeIcon icon={['fas', 'home']}/>Home</RouteButton></Link>
           <Link to='/about'><RouteButton><FontAwesomeIcon icon={['far', 'address-card']}/>About</RouteButton></Link>
           <Link to='/portfolios'><RouteButton>PortFolios</RouteButton></Link>
         </div>
