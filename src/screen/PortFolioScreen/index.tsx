@@ -52,7 +52,7 @@ export const PortFolioScreen = () => {
       name: 'Reactポートフォリオ',
       kind: '自己紹介用',
       date: '2019.8',
-      url: '',
+      url: 'https://ryotaro-kitamura.github.io/portfolios',
       img: react_portfolio,
       backgroundcolor: 'lightgrey',
     }
