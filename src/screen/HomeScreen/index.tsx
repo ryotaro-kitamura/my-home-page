@@ -35,7 +35,7 @@ export const HomeScreen = () => {
       <About>
         <Title>ABOUT ME</Title>
         <Info>学歴・プログラミング歴</Info>
-        <Link to='/about'><InfoButton style={{color: 'black', border: '2px solid black'}}>ABOUT</InfoButton></Link>
+        <Link to='/about'><InfoButton style={{color: 'black', border: '2px solid black'}}><FontAwesomeIcon icon={['far', 'address-card']}/>ABOUT</InfoButton></Link>
       </About>
       <Portfolio>
         <Title>PORTFOLIOS</Title>

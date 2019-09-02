@@ -41,13 +41,13 @@ export const Info = styled.p`
 export const InfoButton = styled(Button)`
   &&{
     font-family: arial black;
-    padding: 10px;
+    border: 2px solid black;
+    margin: 0 5px;
+    display: inline-block;
+    mergin: 0 20px;
     background-color: Transparent;
     background-repeat:no-repeat;
     cursor: pointer;
-  }
-  &&:hover{
-    opacity: 0.8
   }
 `
 export const TwitterButtonDiv = styled.div`

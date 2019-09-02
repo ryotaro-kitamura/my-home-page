@@ -4,6 +4,7 @@ import { RouteButton } from './styles'
 import { HomeScreen } from '../../screen/HomeScreen'
 import { AboutScreen } from '../../screen/AboutScreen/index'
 import { PortFolioScreen } from '../../screen/PortFolioScreen/index'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 export const Header = () => {
@@ -11,8 +12,8 @@ export const Header = () => {
     <React.Fragment>
       <BrowserRouter>
         <div style={{top: 10, right: 10, position: 'fixed', zIndex: 1}}>
-          <Link to='/'><RouteButton>Home</RouteButton></Link>
-          <Link to='/about'><RouteButton>About</RouteButton></Link>
+          <Link to='/'><RouteButton><FontAwesomeIcon icon={['fas', 'home']}/>Home</RouteButton></Link>
+          <Link to='/about'><RouteButton><FontAwesomeIcon icon={['far', 'address-card']}/>About</RouteButton></Link>
           <Link to='/portfolios'><RouteButton>PortFolios</RouteButton></Link>
         </div>
         <Route exact path='/' component={HomeScreen} />
