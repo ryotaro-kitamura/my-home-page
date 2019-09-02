@@ -1,7 +1,7 @@
 {
   "name": "myhomepage",
   "version": "0.1.0",
-  "homepage": "http://ryotaro-kitamura.github.io/my-home-page",
+  "homepage": "https://ryotaro-kitamura.github.io/my-home-page",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.22",
