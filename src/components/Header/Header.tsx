@@ -16,7 +16,7 @@ export const Header = () => {
           <Link to='/about'><RouteButton><FontAwesomeIcon icon={['far', 'address-card']}/>About</RouteButton></Link>
           <Link to='/portfolios'><RouteButton>PortFolios</RouteButton></Link>
         </div>
-        <Route exact path='/' component={HomeScreen} />
+        <Route exact path='/my-home-page' component={HomeScreen} />
         <Route exact path='/about' component={AboutScreen} />
         <Route path='/portfolios' component={PortFolioScreen} />
       </BrowserRouter>
