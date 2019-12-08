@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { Header } from "./components/Header/Header";
+import { Header } from "./components/atoms/Header";
 import "./stylesheets/index.scss";
 import * as serviceWorker from "./serviceWorker";
 import { library } from "@fortawesome/fontawesome-svg-core";
