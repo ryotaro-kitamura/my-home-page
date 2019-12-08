@@ -2,6 +2,7 @@ import React from "react";
 import Card from "../../atoms/Card";
 
 interface PortfolioCardProps {
+  text: string;
   url: string;
   img: string;
   name: string;
@@ -9,6 +10,7 @@ interface PortfolioCardProps {
 }
 
 const PortfolioCard: React.FC<PortfolioCardProps> = ({
+  text,
   url,
   img,
   name,
@@ -21,9 +23,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
       </figure>
       <h2 className='PortfolioCard__Name'>{name}</h2>
       <h3 className='PortfolioCard__Date'>{date}</h3>
-      <div>
-        <p>ここが説明</p>
-      </div>
+      <p className='PortfolioCard__Text'>{text}</p>
     </Card>
   );
 };

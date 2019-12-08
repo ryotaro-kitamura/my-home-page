@@ -13,7 +13,6 @@ export const PortFolioDeatils = (props: Props) => {
       <PortFolioInfo>
         <h3 style={{ textAlign: "center" }}>ポートフォリオ詳細</h3>
         <dl>名前: {portFolio.name}</dl>
-        <dl>内容: {portFolio.kind}</dl>
         <dl>作成時期: {portFolio.date}</dl>
         <dl>
           URL: <a href={portFolio.url}>{portFolio.url}</a>
