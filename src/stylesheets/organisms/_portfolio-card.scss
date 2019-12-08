@@ -1,0 +1,38 @@
+.PortfolioCard {
+  color: $BLACK;
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  box-sizing: border-box;
+  padding: 10px;
+  box-shadow: 1px 2px 2px 1px $LIGHT_GREY;
+}
+
+.PortfolioCard__ImageArea {
+  text-align: center;
+  object-fit: cover;
+}
+
+.PortfolioCard__Image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+
+  @include tab {
+    height: 100px;
+  }
+}
+
+.PortfolioCard__Name {
+  font-size: 18px;
+}
+
+.PortfolioCard__Date {
+  font-size: 8px;
+}
+
+.PortfolioCard__Text {
+  font-size: 8px;
+  color: $BLACK;
+  text-decoration: none;
+}
