@@ -70,9 +70,11 @@ export const PortFolioScreen = () => {
 
   return (
     <PortFolioScreenDiv>
-      {portFolios.map(pf => (
-        <PortfolioCard url={pf.url} name={pf.name} date={pf.date} />
-      ))}
+      <div className='PortFolioScreen__CardArea'>
+        {portFolios.map(pf => (
+          <PortfolioCard url={pf.url} name={pf.name} date={pf.date} />
+        ))}
+      </div>
       <div style={{ textAlign: "center" }}>
         <h2>ポートフォリオ集</h2>
         <p>ボタンを選択すると、該当するポートフォリオの詳細を確認できます</p>

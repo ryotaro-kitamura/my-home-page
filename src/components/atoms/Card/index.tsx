@@ -1,14 +1,17 @@
 import React from "react";
 
 interface CardProps {
+  className: string;
   url: string;
   children: React.ReactNode;
 }
 
-const Card: React.FC<CardProps> = ({ url, children }) => {
+const Card: React.FC<CardProps> = ({ className, url, children }) => {
   return (
-    <div>
-      <a href={url}>{children}</a>
+    <div className={className + " Card"}>
+      <a className='Card__Link' href={url}>
+        {children}
+      </a>
     </div>
   );
 };

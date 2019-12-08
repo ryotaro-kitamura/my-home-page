@@ -9,7 +9,7 @@ interface PortfolioCardProps {
 
 const PortfolioCard: React.FC<PortfolioCardProps> = ({ url, name, date }) => {
   return (
-    <Card url={url}>
+    <Card className='PortfolioCard' url={url}>
       <h2>{name}</h2>
       <h3>{date}</h3>
       <div>

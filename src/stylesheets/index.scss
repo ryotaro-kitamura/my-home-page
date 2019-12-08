@@ -12,5 +12,6 @@ code {
     monospace;
 }
 
-@import "./atoms/index.scss";
-@import "./organisms/index.scss";
+@import "./atoms";
+@import "./organisms/";
+@import "./screens/";
