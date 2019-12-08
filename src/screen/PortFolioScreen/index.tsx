@@ -72,7 +72,12 @@ export const PortFolioScreen = () => {
     <PortFolioScreenDiv>
       <div className='PortFolioScreen__CardArea'>
         {portFolios.map(pf => (
-          <PortfolioCard url={pf.url} name={pf.name} date={pf.date} />
+          <PortfolioCard
+            img={pf.img}
+            url={pf.url}
+            name={pf.name}
+            date={pf.date}
+          />
         ))}
       </div>
       <div style={{ textAlign: "center" }}>
