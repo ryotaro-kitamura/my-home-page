@@ -16,7 +16,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
 }) => {
   return (
     <Card className='PortfolioCard' url={url}>
-      <figure>
+      <figure className='PortfolioCard__ImageArea'>
         <img className='PortfolioCard__Image' src={img} alt='' />
       </figure>
       <h2 className='PortfolioCard__Name'>{name}</h2>
