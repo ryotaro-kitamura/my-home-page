@@ -34,6 +34,10 @@ $sp: 480px; // スマホ
   }
 }
 
+//scss commons
+
+@import "./commons";
+
 //scss module
 
 @import "./atoms";
