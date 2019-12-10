@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { Header } from "./components/atoms/Header";
+import { App } from "./components/app";
 import "./stylesheets/index.scss";
 import * as serviceWorker from "./serviceWorker";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -12,7 +12,7 @@ library.add(fab, fas, far);
 
 ReactDOM.render(
   <React.Fragment>
-    <Header />
+    <App />
   </React.Fragment>,
   document.getElementById("root")
 );

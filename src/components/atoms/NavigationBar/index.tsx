@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ryotaro from "../../../images/ryotaro_kitamura.jpg";
 
-const myIcon =
-  "https://ryotaro-blog.xyz/wp-content/uploads/2019/06/ryotaro-blog-favicon.jpg";
+const myIcon = ryotaro;
 const homeIcon = <FontAwesomeIcon icon={["fas", "home"]} />;
 const aboutIcon = <FontAwesomeIcon icon={["far", "address-card"]} />;
 const portfolioIcon = <FontAwesomeIcon icon={["fas", "palette"]} />;
@@ -16,7 +16,7 @@ const NavigationBar = () => {
       </div>
       <ul className='Global__NavigationBar__Lists'>
         <li className='Global__NavigationBar__List'>
-          <Link to='/my-home-page'>
+          <Link to='/'>
             {homeIcon}
             <p>Home</p>
           </Link>
