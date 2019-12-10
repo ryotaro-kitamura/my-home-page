@@ -5,12 +5,12 @@
 }
 
 .Global__NavigationBar__IconArea {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 51px;
   transition: 0.5s;
 
   &:hover {
-    transform: scale(1.1, 1.1);
+    transform: scale(1.2, 1.2);
   }
 }
 
@@ -34,7 +34,7 @@
   transition: 0.5s;
 
   &:hover {
-    transform: scale(1.1, 1.1);
+    transform: scale(1.2, 1.2);
   }
 }
 
