@@ -16,7 +16,7 @@ const NavigationBar = () => {
       </div>
       <ul className='Global__NavigationBar__Lists'>
         <li className='Global__NavigationBar__List'>
-          <Link to='/my-home-page'>
+          <Link to='/'>
             {homeIcon}
             <p>Home</p>
           </Link>
