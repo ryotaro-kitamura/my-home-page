@@ -29,7 +29,7 @@
 }
 
 .Global__NavigationBar__List {
-  margin-right: 30px;
+  margin-right: $BASE * 8;
   cursor: pointer;
   transition: 0.5s;
 
@@ -45,10 +45,10 @@
 
 .Global__NavigationBar__List p {
   display: inline-block;
-  margin-right: -5px;
+  margin-right: -$BASE;
 
   &::before {
     content: "";
-    margin-right: 5px;
+    margin-right: $BASE;
   }
 }
