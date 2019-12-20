@@ -12,9 +12,11 @@ export const App = () => {
         <NavigationBar />
       </div>
       <Switch>
-        <Route exact path='/' component={HomeScreen} />
-        <Route path='/about' component={AboutScreen} />
-        <Route path='/portfolios' component={PortFolioScreen} />
+        <div className='Global__Contents'>
+          <Route exact path='/' component={HomeScreen} />
+          <Route path='/about' component={AboutScreen} />
+          <Route path='/portfolios' component={PortFolioScreen} />
+        </div>
       </Switch>
     </BrowserRouter>
   );

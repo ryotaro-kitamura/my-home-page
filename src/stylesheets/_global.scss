@@ -1,0 +1,17 @@
+.Global__Header {
+  background-color: whitesmoke;
+  height: 50px;
+  padding: 8px;
+}
+
+.Global__Contents {
+  margin: 40px;
+
+  @include mq-m {
+    margin: 20px;
+  }
+
+  @include mq-m {
+    margin: 10px;
+  }
+}
