@@ -2,6 +2,15 @@
   background-color: whitesmoke;
   height: 50px;
   padding: 8px;
+  width: 100%;
+
+  @include mq-sm {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    box-sizing: content-box;
+  }
 }
 
 .Global__Contents {

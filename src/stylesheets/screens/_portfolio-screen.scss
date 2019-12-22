@@ -2,6 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: $BASE * 25;
+
+  @include mq-sm {
+    display: block;
+  }
 }
 
 .PortFolioScreen__CardArea .PortfolioCard {
