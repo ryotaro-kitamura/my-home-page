@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import torimastart from "../../images/torimastart.png";
 import ryotaroblog from "../../images/ryotaro-blog.png";
 import tasumane from "../../images/tasumane-top.png";
 import react_portfolio from "../../images/react-portfolio.png";
-import PortfolioCard from "../../components/organisms/PortfolioCard";
+import PortfolioCard from "../../components/molecules/PortfolioCard";
 
 export interface PortFolio {
   id: number;
