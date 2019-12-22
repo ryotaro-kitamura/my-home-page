@@ -12,6 +12,10 @@
   &:hover {
     transform: scale(1.2, 1.2);
   }
+
+  @include mq-sm {
+    display: none;
+  }
 }
 
 .Global__NavigationBar__Icon {
@@ -22,9 +26,15 @@
   list-style: none;
   display: flex;
   margin: 0;
+
+  @include mq-sm {
+    padding: 0;
+    margin: 0 auto;
+  }
 }
 
 .Global__NavigationBar__List {
+  font-family: "Anton", sans-serif;
   margin-right: $BASE * 8;
   cursor: pointer;
   transition: 0.5s;

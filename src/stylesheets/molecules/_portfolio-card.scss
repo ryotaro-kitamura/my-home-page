@@ -6,6 +6,10 @@
   box-sizing: border-box;
   padding: 10px;
   box-shadow: 1.5px 1.5px 1.5px 1.5px $LIGHT_GREY;
+
+  @include mq-sm {
+    width: 100%;
+  }
 }
 
 .PortfolioCard__ImageArea {
