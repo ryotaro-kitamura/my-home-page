@@ -1,0 +1,29 @@
+.SkillCard {
+  padding: 10px;
+  height: 245px;
+  border: 2px solid whitesmoke;
+  margin: 0 auto $BASE * 10;
+  color: $BLACK;
+}
+
+.SkillCard .SkillCard__Icon {
+  display: inline-block;
+  font-size: 50px;
+  margin: 50px 0 20px;
+}
+
+.SkillCard .SkillCard__Image {
+  width: 50px;
+  margin: 50px 0 20px;
+}
+
+.SkillCard .SkillCard__Title {
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+
+.SkillCard .SkillCard__Description {
+  text-align: left;
+  font-size: 8px;
+}

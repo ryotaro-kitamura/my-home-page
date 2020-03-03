@@ -1,0 +1,79 @@
+.AboutScreen {
+  margin: $BASE * 10;
+}
+
+.AboutScreen .AboutScreen__Title {
+  margin: 0 auto $BASE * 10;
+}
+
+.AboutScreen .AboutScreen__Title span {
+  border-bottom: 2px solid orange;
+}
+
+.AboutScreen .AboutScreen__Container {
+  max-width: 1152px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.AboutScreen__Contents {
+  margin-bottom: $BASE * 20;
+}
+
+.AboutScreen .AboutScreen__MyData {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 768px;
+
+  @include mq-m {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.AboutScreen .AboutScreen__MyIconArea {
+  max-width: 300px;
+  max-height: 300px;
+  margin-right: $BASE * 10;
+
+  @include mq-m {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0 auto $BASE * 10;
+  }
+}
+
+.AboutScreen .AboutScreen__MySkillsArea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &:after {
+    content: "";
+    width: 33%;
+  }
+
+  @include mq-m {
+    display: block;
+  }
+}
+
+.AboutScreen .AboutScreen__SkillCard {
+  width: 33%;
+
+  @include mq-m {
+    width: 100%;
+  }
+}
+
+.AboutScreen .AboutScreen__Description {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.AboutScreen .AboutScreen__Description p {
+  margin: $BASE * 6 0;
+}

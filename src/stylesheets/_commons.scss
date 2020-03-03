@@ -1,0 +1,21 @@
+//colors
+$BLACK: rgb(48, 48, 56);
+$LIGHT_GREY: lightgrey;
+
+//margin padding
+$BASE: 4px;
+
+//media query
+$tab: 680px; // タブレット
+$sp: 480px; // スマホ
+
+@mixin mq-m {
+  @media (max-width: ($tab)) {
+    @content;
+  }
+}
+@mixin mq-sm {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
