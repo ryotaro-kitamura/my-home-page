@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ad3b901c65765d11ecac9a53604a1426",
+    "revision": "0ec9b3e82d63732c5d12089847ad5566",
     "url": "/my-home-page/index.html"
   },
   {
-    "revision": "86ce61e9c181e3b8a24d",
+    "revision": "76bcf2c95d9f4a077837",
     "url": "/my-home-page/static/css/main.04cf4b05.chunk.css"
   },
   {
-    "revision": "b81c3da3a8d207877f9d",
-    "url": "/my-home-page/static/js/2.dd19515f.chunk.js"
+    "revision": "d184dc0ec111956eb0ed",
+    "url": "/my-home-page/static/js/2.d3711eb2.chunk.js"
   },
   {
-    "revision": "86ce61e9c181e3b8a24d",
-    "url": "/my-home-page/static/js/main.1e9dfe78.chunk.js"
+    "revision": "76bcf2c95d9f4a077837",
+    "url": "/my-home-page/static/js/main.51b03209.chunk.js"
   },
   {
     "revision": "de5a44b1932dbd080e52",
@@ -50,10 +50,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "94c7c3a0b77b56d68293ee6a2e448956",
     "url": "/my-home-page/static/media/tasumane-top.94c7c3a0.png"
-  },
-  {
-    "revision": "7c386f23f4b5034e007a08ad7b34c2f7",
-    "url": "/my-home-page/static/media/torimastart.7c386f23.png"
   },
   {
     "revision": "1744bd905bfae937e83e8bad5649d332",
