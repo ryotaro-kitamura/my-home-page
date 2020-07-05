@@ -22,7 +22,6 @@
 .AboutScreen .AboutScreen__MyData {
   display: flex;
   justify-content: center;
-  max-width: 768px;
 
   @include mq-m {
     display: block;
