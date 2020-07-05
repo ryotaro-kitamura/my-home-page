@@ -8,7 +8,7 @@ const AboutScreen = () => {
   return (
     <div className="AboutScreen">
       <div className="AboutScreen__Container">
-        <div className="AboutScreen__Contents">
+        <div className="AboutScreen__Content">
           <h2 className="AboutScreen__Title">
             <span>About me</span>
           </h2>
@@ -19,7 +19,7 @@ const AboutScreen = () => {
             <div className="AboutScreen__Description">
               <p>こんにちは、Ryotaro です。</p>
               <p>
-                21卒エンジニア志望で、現在はエンジニアインターンをしながらプログラミングを楽しんでいます。
+                21卒エンジニア志望で、現在は長期インターンでWeb開発をしています。
               </p>
               <p>
                 フロントエンド周りの開発経験が一番多く、個人的にも大好きです。
@@ -30,7 +30,7 @@ const AboutScreen = () => {
             </div>
           </div>
         </div>
-        <div className="AboutScreen__Contents">
+        <div className="AboutScreen__Content">
           <h2 className="AboutScreen__Title">
             <span>My Skills</span>
           </h2>
@@ -53,10 +53,16 @@ const AboutScreen = () => {
             ))}
           </div>
         </div>
-        <div className="AboutScreen__Contents">
+        <div className="AboutScreen__Content">
           <h2 className="AboutScreen__Title">
             <span>My Hobby</span>
           </h2>
+          <div className="AboutScreen__Description">
+            <p>趣味はそんなに多くなくて、強いてあげるならというのが以下の4つです。</p>
+            <p>
+              ハマれる趣味を探し求めています
+            </p>
+          </div>
           <div className="AboutScreen__CardsArea">
             {Hobbies.map(({ name, icon, description }) => (
               <div className="AboutScreen__SkillCard">
