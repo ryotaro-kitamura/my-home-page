@@ -1,15 +1,8 @@
-import React from "react";
-import Card from "../../atoms/Card";
+import React from 'react';
+import { Portfolio } from '../../../screen/PortFolioScreen/types';
+import Card from '../../atoms/Card';
 
-interface PortfolioCardProps {
-  text: string;
-  url: string;
-  img?: string;
-  name: string;
-  date: string;
-}
-
-const PortfolioCard: React.FC<PortfolioCardProps> = ({
+const PortfolioCard: React.FC<Partial<Portfolio>> = ({
   text,
   url,
   img,
@@ -17,13 +10,26 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
   date
 }) => {
   return (
-    <Card className='PortfolioCard' url={url}>
-      <figure className='PortfolioCard__ImageArea'>
-        <img className='PortfolioCard__Image' src={img} alt='' />
+    <Card className="PortfolioCard" url={url}>
+      <figure className="PortfolioCard__ImageArea">
+        <img className="PortfolioCard__Image" src={img} alt="" />
       </figure>
-      <h2 className='PortfolioCard__Name'>{name}</h2>
-      <h3 className='PortfolioCard__Date'>{date}</h3>
-      <p className='PortfolioCard__Text'>{text}</p>
+      <h2 className="PortfolioCard__Name">{name}</h2>
+
+      <label>
+        Period: <p className="PortfolioCard__Date">{date}</p>
+      </label>
+      <label>
+        Description: <p className="PortfolioCard__Text">{text}</p>
+      </label>
+      <label>
+        Link:
+        <p className="PortfolioCard__Text link">
+          <a className="PortfolioCard__Text link" href={url}>
+            {url}
+          </a>
+        </p>
+      </label>
     </Card>
   );
 };
