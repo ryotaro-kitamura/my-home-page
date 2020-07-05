@@ -13,7 +13,7 @@ library.add(fab, fas, far);
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="Global__Header">
         <NavigationBar />
       </div>
