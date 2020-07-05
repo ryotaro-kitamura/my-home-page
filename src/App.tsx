@@ -19,8 +19,8 @@ const App = () => {
       </div>
       <Switch>
         <div className="Global__Contents">
-          <Route exact path="/my-home-page" component={AboutScreen} />
-          <Route path="/my-home-page/portfolios" component={PortFolioScreen} />
+          <Route exact path="" component={AboutScreen} />
+          <Route path="/portfolios" component={PortFolioScreen} />
         </div>
       </Switch>
     </BrowserRouter>
