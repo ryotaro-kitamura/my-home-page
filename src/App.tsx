@@ -19,7 +19,7 @@ const App = () => {
       </div>
       <Switch>
         <div className="Global__Contents">
-          <Route exact path="" component={AboutScreen} />
+          <Route exact path="/" component={AboutScreen} />
           <Route path="/portfolios" component={PortFolioScreen} />
         </div>
       </Switch>
