@@ -9,13 +9,13 @@ const NavigationBar = () => {
     <div className='Global__NavigationBar'>
       <ul className='Global__NavigationBar__Lists'>
         <li className='Global__NavigationBar__List'>
-          <Link to='/my-home-page'>
+          <Link to=''>
             {aboutIcon}
             <p>About</p>
           </Link>
         </li>
         <li className='Global__NavigationBar__List'>
-          <Link to='/my-home-page/portfolios'>
+          <Link to='/portfolios'>
             {portfolioIcon}
             <p>PortFolios</p>
           </Link>
