@@ -12,7 +12,7 @@ export const App = () => {
         <NavigationBar />
       </div>
       <Switch>
-        <Route exact path="/" component={HomeScreen} />
+        <Route exact path="/my-home-page" component={HomeScreen} />
         <div className="Global__Contents">
           <Route path="/about" component={AboutScreen} />
           <Route path="/portfolios" component={PortFolioScreen} />

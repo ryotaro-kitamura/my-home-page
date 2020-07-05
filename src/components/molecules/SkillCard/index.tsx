@@ -1,33 +1,19 @@
-import React, { ReactElement } from "react";
-import Card from "../../atoms/Card";
+import React from 'react';
+import { AboutPageCardProps } from '../../../screen/AboutScreen/aboutScreen';
+import Card from '../../atoms/Card';
 
-interface SkillCard {
-  icon?: ReactElement;
-  image?: string;
-  color?: string;
-  name: string;
-  description: string;
-}
-
-const SkillCard: React.FC<SkillCard> = ({
-  icon,
-  image,
-  name,
-  description,
-  color
-}) => {
-  const fontColor = color && color;
+const SkillCard = (props: Partial<AboutPageCardProps>) => {
   return (
-    <Card className='SkillCard'>
-      {icon && (
-        <p className='SkillCard__Icon' style={{ color: fontColor }}>
-          {icon}
-        </p>
+    <Card className="SkillCard">
+      {typeof props.icon === 'string' ? (
+        <img className="SkillCard__Icon_image" src={props.icon} alt="" />
+      ) : (
+        <p className="SkillCard__Icon">{props.icon}</p>
       )}
-      {image && <img className='SkillCard__Image' src={image} alt='' />}
-      <div className='SkillCard__Text'>
-        <p className='SkillCard__Title'>{name}</p>
-        <p className='SkillCard__Description'>{description}</p>
+      <div className="SkillCard__Text">
+        <p className="SkillCard__Title">{props.name}</p>
+        {props.period && <p className="SkillCard__Period">{props.period}</p>}
+        <p className="SkillCard__Description">{props.description}</p>
       </div>
     </Card>
   );
