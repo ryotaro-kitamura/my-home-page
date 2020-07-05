@@ -25,11 +25,10 @@
 .Global__NavigationBar__Lists {
   list-style: none;
   display: flex;
-  margin: 0;
+  margin: 0 auto;
 
   @include mq-sm {
     padding: 0;
-    margin: 0 auto;
   }
 }
 

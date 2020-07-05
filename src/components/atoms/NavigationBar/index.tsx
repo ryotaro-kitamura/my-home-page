@@ -1,8 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Icon from "../Icon";
-const homeIcon = <FontAwesomeIcon icon={["fas", "home"]} />;
 const aboutIcon = <FontAwesomeIcon icon={["far", "address-card"]} />;
 const portfolioIcon = <FontAwesomeIcon icon={["fas", "palette"]} />;
 
@@ -11,13 +9,7 @@ const NavigationBar = () => {
     <div className='Global__NavigationBar'>
       <ul className='Global__NavigationBar__Lists'>
         <li className='Global__NavigationBar__List'>
-          <Link to='/'>
-            {homeIcon}
-            <p>Home</p>
-          </Link>
-        </li>
-        <li className='Global__NavigationBar__List'>
-          <Link to='/about'>
+          <Link to=''>
             {aboutIcon}
             <p>About</p>
           </Link>
