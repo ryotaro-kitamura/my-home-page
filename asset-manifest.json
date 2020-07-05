@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/my-home-page/static/css/main.71de9cb4.chunk.css",
-    "main.js": "/my-home-page/static/js/main.a0bb187b.chunk.js",
-    "main.js.map": "/my-home-page/static/js/main.a0bb187b.chunk.js.map",
-    "runtime~main.js": "/my-home-page/static/js/runtime~main.94b9f5e0.js",
-    "runtime~main.js.map": "/my-home-page/static/js/runtime~main.94b9f5e0.js.map",
-    "static/js/2.763e32c8.chunk.js": "/my-home-page/static/js/2.763e32c8.chunk.js",
-    "static/js/2.763e32c8.chunk.js.map": "/my-home-page/static/js/2.763e32c8.chunk.js.map",
-    "index.html": "/my-home-page/index.html",
-    "precache-manifest.63dc06b2ed6953a97a4826876257be70.js": "/my-home-page/precache-manifest.63dc06b2ed6953a97a4826876257be70.js",
-    "service-worker.js": "/my-home-page/service-worker.js",
-    "static/css/main.71de9cb4.chunk.css.map": "/my-home-page/static/css/main.71de9cb4.chunk.css.map",
-    "static/media/IMG20190117173225.jpg": "/my-home-page/static/media/IMG20190117173225.6c607db3.jpg",
-    "static/media/ruby_on_rails.svg": "/my-home-page/static/media/ruby_on_rails.bcb113b9.svg",
-    "static/media/tasumane-top.png": "/my-home-page/static/media/tasumane-top.94c7c3a0.png"
+    "main.css": "/static/css/main.71de9cb4.chunk.css",
+    "main.js": "/static/js/main.44c56249.chunk.js",
+    "main.js.map": "/static/js/main.44c56249.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.12ce84e3.js",
+    "runtime~main.js.map": "/static/js/runtime~main.12ce84e3.js.map",
+    "static/js/2.763e32c8.chunk.js": "/static/js/2.763e32c8.chunk.js",
+    "static/js/2.763e32c8.chunk.js.map": "/static/js/2.763e32c8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.77445a0a2d01a00178682d7b6a251c0a.js": "/precache-manifest.77445a0a2d01a00178682d7b6a251c0a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.71de9cb4.chunk.css.map": "/static/css/main.71de9cb4.chunk.css.map",
+    "static/media/IMG20190117173225.jpg": "/static/media/IMG20190117173225.6c607db3.jpg",
+    "static/media/ruby_on_rails.svg": "/static/media/ruby_on_rails.bcb113b9.svg",
+    "static/media/tasumane-top.png": "/static/media/tasumane-top.94c7c3a0.png"
   }
 }
