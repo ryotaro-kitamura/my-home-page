@@ -4,7 +4,7 @@ import Card from "../../atoms/Card";
 interface PortfolioCardProps {
   text: string;
   url: string;
-  img: string;
+  img?: string;
   name: string;
   date: string;
 }

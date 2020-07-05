@@ -1,8 +1,5 @@
 import React from 'react';
-import torimastart from '../../images/torimastart.png';
-import ryotaroblog from '../../images/ryotaro-blog.png';
 import tasumane from '../../images/tasumane-top.png';
-import react_portfolio from '../../images/react-portfolio.png';
 import PortfolioCard from '../../components/molecules/PortfolioCard';
 
 export interface PortFolio {
@@ -24,7 +21,6 @@ export const PortFolioScreen = () => {
         '現在はプログラミング学習情報が中心。自作したWordPressテーマを使用しています。',
       date: '2019.5 - present',
       url: 'https://ryotaro-blog.xyz/',
-      img: ryotaroblog,
       backgroundcolor: 'lightblue'
     },
     {
@@ -42,7 +38,6 @@ export const PortFolioScreen = () => {
       text: '自己紹介用',
       date: '2019.8',
       url: 'https://ryotaro-kitamura.github.io/portfolios',
-      img: react_portfolio,
       backgroundcolor: 'lightgrey'
     }
   ];
@@ -54,7 +49,6 @@ export const PortFolioScreen = () => {
         {portFolios.map(({ text, img, url, name, date }) => (
           <PortfolioCard
             text={text}
-            img={img}
             url={url}
             name={name}
             date={date}
