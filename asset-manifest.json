@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/my-home-page/static/css/main.71de9cb4.chunk.css",
-    "main.js": "/my-home-page/static/js/main.20805e61.chunk.js",
-    "main.js.map": "/my-home-page/static/js/main.20805e61.chunk.js.map",
+    "main.css": "/my-home-page/static/css/main.480f59e0.chunk.css",
+    "main.js": "/my-home-page/static/js/main.cd7b0ede.chunk.js",
+    "main.js.map": "/my-home-page/static/js/main.cd7b0ede.chunk.js.map",
     "runtime~main.js": "/my-home-page/static/js/runtime~main.94b9f5e0.js",
     "runtime~main.js.map": "/my-home-page/static/js/runtime~main.94b9f5e0.js.map",
-    "static/js/2.763e32c8.chunk.js": "/my-home-page/static/js/2.763e32c8.chunk.js",
-    "static/js/2.763e32c8.chunk.js.map": "/my-home-page/static/js/2.763e32c8.chunk.js.map",
+    "static/js/2.8c44b938.chunk.js": "/my-home-page/static/js/2.8c44b938.chunk.js",
+    "static/js/2.8c44b938.chunk.js.map": "/my-home-page/static/js/2.8c44b938.chunk.js.map",
     "index.html": "/my-home-page/index.html",
-    "precache-manifest.eb499eaef640fd3390697ed80ac3bcf8.js": "/my-home-page/precache-manifest.eb499eaef640fd3390697ed80ac3bcf8.js",
+    "precache-manifest.9601fab24ab8a23c9e664c51c54cae6c.js": "/my-home-page/precache-manifest.9601fab24ab8a23c9e664c51c54cae6c.js",
     "service-worker.js": "/my-home-page/service-worker.js",
-    "static/css/main.71de9cb4.chunk.css.map": "/my-home-page/static/css/main.71de9cb4.chunk.css.map",
+    "static/css/main.480f59e0.chunk.css.map": "/my-home-page/static/css/main.480f59e0.chunk.css.map",
     "static/media/IMG20190117173225.jpg": "/my-home-page/static/media/IMG20190117173225.6c607db3.jpg",
+    "static/media/portfolio.png": "/my-home-page/static/media/portfolio.2916ed5d.png",
     "static/media/ruby_on_rails.svg": "/my-home-page/static/media/ruby_on_rails.bcb113b9.svg",
+    "static/media/seize-the-day.png": "/my-home-page/static/media/seize-the-day.8b76ad26.png",
     "static/media/tasumane-top.png": "/my-home-page/static/media/tasumane-top.94c7c3a0.png"
   }
 }

@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60eb88b82337bd7d295b87a89c83c8d0",
+    "revision": "21579a78cd4a0a65039b7418d67599f1",
     "url": "/my-home-page/index.html"
   },
   {
-    "revision": "ca06e1c2164b752004c6",
-    "url": "/my-home-page/static/css/main.71de9cb4.chunk.css"
+    "revision": "0adaeeb597f57977bcc1",
+    "url": "/my-home-page/static/css/main.480f59e0.chunk.css"
   },
   {
-    "revision": "03587b200a5c1e5e6884",
-    "url": "/my-home-page/static/js/2.763e32c8.chunk.js"
+    "revision": "6c11d7ae9a1bf55c3968",
+    "url": "/my-home-page/static/js/2.8c44b938.chunk.js"
   },
   {
-    "revision": "ca06e1c2164b752004c6",
-    "url": "/my-home-page/static/js/main.20805e61.chunk.js"
+    "revision": "0adaeeb597f57977bcc1",
+    "url": "/my-home-page/static/js/main.cd7b0ede.chunk.js"
   },
   {
     "revision": "de5a44b1932dbd080e52",
@@ -24,8 +24,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-home-page/static/media/IMG20190117173225.6c607db3.jpg"
   },
   {
+    "revision": "2916ed5d2e83743c280c88a7b4b01215",
+    "url": "/my-home-page/static/media/portfolio.2916ed5d.png"
+  },
+  {
     "revision": "bcb113b9659ec9a26133a0efdd38aff0",
     "url": "/my-home-page/static/media/ruby_on_rails.bcb113b9.svg"
+  },
+  {
+    "revision": "8b76ad26204345548661c42dc670de82",
+    "url": "/my-home-page/static/media/seize-the-day.8b76ad26.png"
   },
   {
     "revision": "94c7c3a0b77b56d68293ee6a2e448956",
