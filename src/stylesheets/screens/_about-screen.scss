@@ -13,17 +13,15 @@
 .AboutScreen .AboutScreen__Container {
   max-width: 1152px;
   margin: 0 auto;
-  text-align: center;
 }
 
-.AboutScreen__Contents {
+.AboutScreen__Content {
   margin-bottom: $BASE * 20;
 }
 
 .AboutScreen .AboutScreen__MyData {
   display: flex;
   justify-content: center;
-  margin: 0 auto;
   max-width: 768px;
 
   @include mq-m {
@@ -42,7 +40,6 @@
   @include mq-m {
     max-width: 200px;
     max-height: 200px;
-    margin: 0 auto $BASE * 10;
   }
 }
 
@@ -67,11 +64,6 @@
   @include mq-m {
     width: 100%;
   }
-}
-
-.AboutScreen .AboutScreen__Description {
-  max-width: 350px;
-  margin: 0 auto;
 }
 
 .AboutScreen .AboutScreen__Description p {
