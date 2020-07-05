@@ -1,9 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { HomeScreen } from '../../screen/HomeScreen';
+import AboutScreen from '../../screen/AboutScreen';
 import { PortFolioScreen } from '../../screen/PortFolioScreen';
 import NavigationBar from '../atoms/NavigationBar';
-import AboutScreen from '../../screen/AboutScreen';
 
 export const App = () => {
   return (
@@ -12,9 +11,8 @@ export const App = () => {
         <NavigationBar />
       </div>
       <Switch>
-        <Route exact path="/my-home-page" component={HomeScreen} />
         <div className="Global__Contents">
-          <Route path="/about" component={AboutScreen} />
+          <Route exact path="/" component={AboutScreen} />
           <Route path="/portfolios" component={PortFolioScreen} />
         </div>
       </Switch>

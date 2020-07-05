@@ -9,7 +9,7 @@ const NavigationBar = () => {
     <div className='Global__NavigationBar'>
       <ul className='Global__NavigationBar__Lists'>
         <li className='Global__NavigationBar__List'>
-          <Link to='/about'>
+          <Link to=''>
             {aboutIcon}
             <p>About</p>
           </Link>
