@@ -1,24 +1,18 @@
 {
   "files": {
-    "main.css": "/my-home-page/static/css/main.04cf4b05.chunk.css",
-    "main.js": "/my-home-page/static/js/main.5abdc427.chunk.js",
-    "main.js.map": "/my-home-page/static/js/main.5abdc427.chunk.js.map",
+    "main.css": "/my-home-page/static/css/main.71de9cb4.chunk.css",
+    "main.js": "/my-home-page/static/js/main.a0bb187b.chunk.js",
+    "main.js.map": "/my-home-page/static/js/main.a0bb187b.chunk.js.map",
     "runtime~main.js": "/my-home-page/static/js/runtime~main.94b9f5e0.js",
     "runtime~main.js.map": "/my-home-page/static/js/runtime~main.94b9f5e0.js.map",
-    "static/js/2.9e090f38.chunk.js": "/my-home-page/static/js/2.9e090f38.chunk.js",
-    "static/js/2.9e090f38.chunk.js.map": "/my-home-page/static/js/2.9e090f38.chunk.js.map",
+    "static/js/2.763e32c8.chunk.js": "/my-home-page/static/js/2.763e32c8.chunk.js",
+    "static/js/2.763e32c8.chunk.js.map": "/my-home-page/static/js/2.763e32c8.chunk.js.map",
     "index.html": "/my-home-page/index.html",
-    "precache-manifest.208745b5dd1a522698a440e413402a36.js": "/my-home-page/precache-manifest.208745b5dd1a522698a440e413402a36.js",
+    "precache-manifest.63dc06b2ed6953a97a4826876257be70.js": "/my-home-page/precache-manifest.63dc06b2ed6953a97a4826876257be70.js",
     "service-worker.js": "/my-home-page/service-worker.js",
-    "static/css/main.04cf4b05.chunk.css.map": "/my-home-page/static/css/main.04cf4b05.chunk.css.map",
-    "static/media/baseball.svg": "/my-home-page/static/media/baseball.541499c4.svg",
-    "static/media/boxing.svg": "/my-home-page/static/media/boxing.a78fd448.svg",
-    "static/media/coding.svg": "/my-home-page/static/media/coding.2131d04b.svg",
-    "static/media/react-portfolio.png": "/my-home-page/static/media/react-portfolio.862366f5.png",
+    "static/css/main.71de9cb4.chunk.css.map": "/my-home-page/static/css/main.71de9cb4.chunk.css.map",
+    "static/media/IMG20190117173225.jpg": "/my-home-page/static/media/IMG20190117173225.6c607db3.jpg",
     "static/media/ruby_on_rails.svg": "/my-home-page/static/media/ruby_on_rails.bcb113b9.svg",
-    "static/media/ryotaro-blog.png": "/my-home-page/static/media/ryotaro-blog.384711cc.png",
-    "static/media/ryotaro_kitamura.jpg": "/my-home-page/static/media/ryotaro_kitamura.427535c8.jpg",
-    "static/media/tasumane-top.png": "/my-home-page/static/media/tasumane-top.94c7c3a0.png",
-    "static/media/travel.svg": "/my-home-page/static/media/travel.1744bd90.svg"
+    "static/media/tasumane-top.png": "/my-home-page/static/media/tasumane-top.94c7c3a0.png"
   }
 }
