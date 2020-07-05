@@ -1,8 +1,8 @@
 import React from 'react';
 import Icon from '../../components/atoms/Icon';
 import Card from '../../components/molecules/SkillCard';
-import myIcon from '../../images/IMG20190117173225.jpg'
-import { Skills, Hobbies } from './data';
+import myIcon from '../../images/IMG20190117173225.jpg';
+import { Hobbies, Skills } from './data';
 
 const AboutScreen = () => {
   return (
@@ -17,7 +17,7 @@ const AboutScreen = () => {
               <Icon className="AboutScreen__MyIcon" url={myIcon} />
             </div>
             <div className="AboutScreen__Description">
-              <p>こんにちは、北村瞭太郎です。</p>
+              <p>こんにちは、Ryotaro です。</p>
               <p>
                 21卒エンジニア志望で、現在はエンジニアインターンをしながらプログラミングを楽しんでいます。
               </p>
@@ -60,11 +60,7 @@ const AboutScreen = () => {
           <div className="AboutScreen__CardsArea">
             {Hobbies.map(({ name, icon, description }) => (
               <div className="AboutScreen__SkillCard">
-                <Card
-                  name={name}
-                  icon={icon}
-                  description={description}
-                />
+                <Card name={name} icon={icon} description={description} />
               </div>
             ))}
           </div>
